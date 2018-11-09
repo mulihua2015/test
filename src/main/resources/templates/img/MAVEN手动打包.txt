@@ -1,9 +1,0 @@
-1、进入项目路径，必须在包含POM文件的目录中
-2、执行 mvn clean dependency:copy-dependencies package
-mvn clean package dependency:copy-dependencies -Dmaven.test.skip=true
-
-
-java -jar spring-cloud-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1
-
-
-java -jar spring-cloud-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
